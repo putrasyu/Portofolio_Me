@@ -48,7 +48,7 @@ const sendEmail = (e) =>{
     e.preventDefault()
 
     // serviceID - templateID - #form - publicKey
-    emailjs.sendForm('service_60ho749', 'template_lbe86pg', '#contact-form', 'KxC2H3Jwi7cmxVOEs')
+    emailjs.sendForm('service_qxghr7f', 'template_pkm3vgi', '#contact-form', '9Dkm9rGR5IpoLLzhV')
         .then(() =>{
                 // Show sent message
                 contactMessage.textContent = 'Message sent successfully ✅'
@@ -103,8 +103,8 @@ window.addEventListener('scroll', scrollActive)
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
-    duration: 2500,
-    delay: 400,
+    duration: 1500,
+    delay: 200,
     // reset: true // Animations repeat
 })
 
